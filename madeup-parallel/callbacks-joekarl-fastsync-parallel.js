@@ -1,5 +1,5 @@
 require('../lib/fakes');
-var fastsync = require('../../fastsync');
+var fastsync = require('fastsync');
 
 function fileInsertFor(i, tx) {
     return function(callback) {

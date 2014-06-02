@@ -1,5 +1,5 @@
 require('../lib/fakes');
-var fastsync = require('../../fastsync');
+var fastsync = require('fastsync');
 
 module.exports = function upload(stream, idOrPath, tag, done) {
     var blob = blobManager.create(account);
