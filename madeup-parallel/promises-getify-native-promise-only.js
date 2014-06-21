@@ -1,4 +1,5 @@
 var NPO_Promise = require('native-promise-only');
+global.useNPO = true;
 require('../lib/fakesP');
 
 module.exports = function upload(stream, idOrPath, tag, done) {
